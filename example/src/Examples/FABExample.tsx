@@ -76,12 +76,6 @@ class ButtonExample extends React.Component<Props, State> {
             <FAB.Group
               open={this.state.open}
               icon={this.state.open ? 'today' : 'add'}
-              actions={[
-                { icon: 'add', onPress: () => {} },
-                { icon: 'star', label: 'Star', onPress: () => {} },
-                { icon: 'email', label: 'Email', onPress: () => {} },
-                { icon: 'notifications', label: 'Remind', onPress: () => {} },
-              ]}
               onStateChange={({ open }: { open: boolean }) =>
                 this.setState({ open })
               }
@@ -91,7 +85,17 @@ class ButtonExample extends React.Component<Props, State> {
                 }
               }}
               visible={this.state.visible}
-            />
+            >
+              <FAB small icon="add" onPress={() => {}} />
+              <FAB small icon="star" label="Star" onPress={() => {}} />
+              <FAB small icon="email" label="Email" onPress={() => {}} />
+              <FAB
+                small
+                icon="notifications"
+                label="Remind"
+                onPress={() => {}}
+              />
+            </FAB.Group>
           </Portal>
         </View>
       </View>
