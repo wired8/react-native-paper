@@ -30,7 +30,7 @@ class ChipExample extends React.Component<Props> {
               Close button
             </Chip>
             <Chip
-              icon="favorite"
+              icon="heart"
               onPress={() => {}}
               onClose={() => {}}
               style={styles.chip}
@@ -57,12 +57,7 @@ class ChipExample extends React.Component<Props> {
             >
               Avatar (selected)
             </Chip>
-            <Chip
-              disabled
-              icon="favorite"
-              onClose={() => {}}
-              style={styles.chip}
-            >
+            <Chip disabled icon="heart" onClose={() => {}} style={styles.chip}>
               Icon (disabled)
             </Chip>
             <Chip
@@ -91,7 +86,7 @@ class ChipExample extends React.Component<Props> {
             </Chip>
             <Chip
               mode="outlined"
-              icon="favorite"
+              icon="heart"
               onPress={() => {}}
               onClose={() => {}}
               style={styles.chip}
@@ -122,7 +117,7 @@ class ChipExample extends React.Component<Props> {
             <Chip
               disabled
               mode="outlined"
-              icon="favorite"
+              icon="heart"
               onClose={() => {}}
               style={styles.chip}
             >

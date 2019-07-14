@@ -151,7 +151,7 @@ exports[`renders list section with custom title style 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -159,7 +159,7 @@ exports[`renders list section with custom title style 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View
@@ -276,7 +276,7 @@ exports[`renders list section with custom title style 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -284,7 +284,7 @@ exports[`renders list section with custom title style 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View
@@ -482,7 +482,7 @@ exports[`renders list section with subheader 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -490,7 +490,7 @@ exports[`renders list section with subheader 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View
@@ -607,7 +607,7 @@ exports[`renders list section with subheader 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -615,7 +615,7 @@ exports[`renders list section with subheader 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View
@@ -785,7 +785,7 @@ exports[`renders list section without subheader 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -793,7 +793,7 @@ exports[`renders list section without subheader 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View
@@ -910,7 +910,7 @@ exports[`renders list section without subheader 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -918,7 +918,7 @@ exports[`renders list section without subheader 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View

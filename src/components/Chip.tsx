@@ -268,7 +268,7 @@ class Chip extends React.Component<Props, State> {
                 ]}
               >
                 <Icon
-                  source={icon || 'done'}
+                  source={icon || 'check'}
                   color={avatar ? white : iconColor}
                   size={18}
                 />

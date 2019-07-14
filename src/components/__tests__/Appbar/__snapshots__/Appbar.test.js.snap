@@ -104,7 +104,7 @@ exports[`Appbar does not pass any additional props to Searchbar 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -112,7 +112,7 @@ exports[`Appbar does not pass any additional props to Searchbar 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
     </View>
@@ -219,7 +219,7 @@ exports[`Appbar does not pass any additional props to Searchbar 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -227,7 +227,7 @@ exports[`Appbar does not pass any additional props to Searchbar 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
     </View>

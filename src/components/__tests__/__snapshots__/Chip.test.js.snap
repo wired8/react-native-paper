@@ -78,7 +78,7 @@ exports[`renders chip with close button 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -86,7 +86,7 @@ exports[`renders chip with close button 1`] = `
             ]
           }
         >
-          
+          ?
         </Text>
       </View>
       <Text
@@ -159,7 +159,7 @@ exports[`renders chip with close button 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -167,7 +167,7 @@ exports[`renders chip with close button 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
     </View>
@@ -253,7 +253,7 @@ exports[`renders chip with icon 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -261,7 +261,7 @@ exports[`renders chip with icon 1`] = `
             ]
           }
         >
-          
+          ?
         </Text>
       </View>
       <Text
@@ -543,7 +543,7 @@ exports[`renders selected chip 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -551,7 +551,7 @@ exports[`renders selected chip 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <Text

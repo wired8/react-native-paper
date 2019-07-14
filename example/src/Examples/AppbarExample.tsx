@@ -22,7 +22,7 @@ const initialParams = {
   showMoreIcon: true,
 };
 
-const MORE_ICON = Platform.OS === 'ios' ? 'more-horiz' : 'more-vert';
+const MORE_ICON = Platform.OS === 'ios' ? 'dots-horizontal' : 'dots-vertical';
 
 class AppbarExample extends React.Component<Props> {
   static title = 'Appbar';
@@ -40,7 +40,7 @@ class AppbarExample extends React.Component<Props> {
             subtitle={params.showSubtitle ? 'Subtitle' : null}
           />
           {params.showSearchIcon && (
-            <Appbar.Action icon="search" onPress={() => {}} />
+            <Appbar.Action icon="magnify" onPress={() => {}} />
           )}
           {params.showMoreIcon && (
             <Appbar.Action icon={MORE_ICON} onPress={() => {}} />
@@ -114,7 +114,7 @@ class AppbarExample extends React.Component<Props> {
         </View>
         <Appbar style={styles.bottom}>
           <Appbar.Action icon="archive" onPress={() => {}} />
-          <Appbar.Action icon="mail" onPress={() => {}} />
+          <Appbar.Action icon="email" onPress={() => {}} />
           <Appbar.Action icon="label" onPress={() => {}} />
           <Appbar.Action icon="delete" onPress={() => {}} />
         </Appbar>
