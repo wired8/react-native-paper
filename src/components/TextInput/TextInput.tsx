@@ -267,7 +267,7 @@ class TextInput extends React.Component<TextInputProps, State> {
       placeholder: '',
     });
 
-  _timer?: number;
+  _timer?: any;
   _root: NativeTextInput | undefined | null;
 
   _showError = () => {

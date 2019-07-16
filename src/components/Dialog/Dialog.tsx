@@ -27,6 +27,7 @@ type Props = {
    */
   children: React.ReactNode;
   style?: StyleProp<ViewStyle>;
+  wrapperStyle?:StyleProp<ViewStyle>
   /**
    * @optional
    */
@@ -102,6 +103,7 @@ class Dialog extends React.Component<Props> {
       onDismiss,
       visible,
       style,
+      wrapperStyle,
       theme,
     } = this.props;
 
@@ -118,6 +120,7 @@ class Dialog extends React.Component<Props> {
           styles.container,
           style,
         ]}
+        wrapperStyle={wrapperStyle}
       >
         {React.Children.toArray(children)
           .filter(child => child != null && typeof child !== 'boolean')

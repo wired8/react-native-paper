@@ -36,6 +36,11 @@ type Props = {
   contentContainerStyle?: StyleProp<ViewStyle>;
   /**
    * @optional
+   * Overrides Styles for the Wrapper element.
+   */
+  wrapperStyle?: StyleProp<ViewStyle>;
+  /**
+   * @optional
    */
   theme: Theme;
 };
@@ -176,7 +181,7 @@ class Modal extends React.Component<Props, State> {
   render() {
     if (!this.state.rendered) return null;
 
-    const { children, dismissable, theme, contentContainerStyle } = this.props;
+    const { children, dismissable, theme, wrapperStyle, contentContainerStyle } = this.props;
     const { colors } = theme;
     return (
       <Animated.View
@@ -195,7 +200,14 @@ class Modal extends React.Component<Props, State> {
             ]}
           />
         </TouchableWithoutFeedback>
-        <View pointerEvents="box-none" style={styles.wrapper}>
+        <View
+          pointerEvents="box-none"
+          style={[
+            styles.wrapper,
+            wrapperStyle
+          ] as StyleProp<ViewStyle>
+          }
+          >
           <Surface
             style={
               [

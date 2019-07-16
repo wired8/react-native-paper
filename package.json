@@ -45,7 +45,9 @@
   "dependencies": {
     "@callstack/react-theme-provider": "^3.0.2",
     "color": "^2.0.1",
-    "react-native-safe-area-view": "^0.12.0"
+    "expo": "^33.0.7",
+    "react-native-safe-area-view": "^0.12.0",
+    "react-navigation": "^3.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -94,12 +96,6 @@
     "react": "*",
     "react-native": "*",
     "react-native-vector-icons": "*"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript && yarn test"
-    }
   },
   "jest": {
     "preset": "react-native",
